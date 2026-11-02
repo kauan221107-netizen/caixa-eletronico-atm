@@ -43,3 +43,15 @@ Notas entregues:
 1 nota(s) de 5
 1 moeda(s) de 2
 ```
+
+Exemplos de erro:
+
+```
+Digite o valor do saque: -5
+Erro: valor invalido. Digite um valor maior que zero.
+```
+
+```
+Digite o valor do saque: 1500
+Erro: saldo insuficiente. Saldo: R$ 1000 | Saque pedido: R$ 1500
+```

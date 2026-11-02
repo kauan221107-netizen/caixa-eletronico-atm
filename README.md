@@ -55,3 +55,7 @@ Erro: valor invalido. Digite um valor maior que zero.
 Digite o valor do saque: 1500
 Erro: saldo insuficiente. Saldo: R$ 1000 | Saque pedido: R$ 1500
 ```
+##  Tecnologias
+
+- Linguagem C
+- Biblioteca `stdio.h`

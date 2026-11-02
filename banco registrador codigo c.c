@@ -1,9 +1,3 @@
-/*
- * Atividade 2 - Sistema de Caixa Eletrônico (ATM)
- * Algoritmos e Pensamento Computacional - UNICID
- * Grupo 6
- */
-
 #include <stdio.h>
 
 int main(void) {

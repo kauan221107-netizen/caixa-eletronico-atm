@@ -14,3 +14,18 @@ Simulação de um caixa eletrônico em C que valida um saque e calcula quais not
   - erro se for maior que o saldo
 - Calcula a quantidade de cada nota/moeda (100, 50, 20, 10, 5, 2 e 1)
 - Mostra apenas as notas e moedas que serão realmente usadas
+
+##  Como funciona
+
+O programa usa um **algoritmo guloso**: começa pela nota de maior valor, usa a divisão inteira (`/`) para saber quantas cabem e o resto da divisão (`%`) para continuar com o valor que sobrou.
+
+Exemplo para R$ 287:
+
+| Passo | Cálculo | Quantidade | Resto |
+|-------|---------|-----------|-------|
+| 100 | 287 / 100 | 2 | 87 |
+| 50 | 87 / 50 | 1 | 37 |
+| 20 | 37 / 20 | 1 | 17 |
+| 10 | 17 / 10 | 1 | 7 |
+| 5 | 7 / 5 | 1 | 2 |
+| 2 | 2 / 2 | 1 | 0 |

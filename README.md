@@ -29,3 +29,17 @@ Exemplo para R$ 287:
 | 10 | 17 / 10 | 1 | 7 |
 | 5 | 7 / 5 | 1 | 2 |
 | 2 | 2 / 2 | 1 | 0 |
+
+##  Exemplo de uso
+
+```
+Saldo disponivel: R$ 1000
+Digite o valor do saque: 287
+Notas entregues:
+2 nota(s) de 100
+1 nota(s) de 50
+1 nota(s) de 20
+1 nota(s) de 10
+1 nota(s) de 5
+1 moeda(s) de 2
+```
